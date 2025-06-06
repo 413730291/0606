@@ -81,8 +81,8 @@ function draw() {
   background(0);
   image(video, 0, 0, width, height);
 
-  // 檢查分數是否達到 500 並且遊戲尚未結束
-  if (score >= 500 && !gameOver) {
+  // 檢查分數是否達到 100 並且遊戲尚未結束
+  if (score >= 100 && !gameOver) {
     gameOver = true; // 標記遊戲結束
 
     // 顯示成功畫面
